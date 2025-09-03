@@ -6,11 +6,11 @@ include 'connect.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST['name'];
     $email = $_POST['email'];
-    $reg_number = $_POST['reg_number'];
+    $matric_number = $_POST['matric_number'];
 
     // Insert data into the database
     $sql = "INSERT INTO students (name, email, reg_number) 
-            VALUES ('$name', '$email', '$reg_number')";
+            VALUES ('$name', '$email', '$matric_number')";
 
     if ($conn->query($sql) === TRUE) {
         echo "Student registered successfully!";
