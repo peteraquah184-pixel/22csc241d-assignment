@@ -7,7 +7,7 @@ USE student_db;
 
 CREATE TABLE IF NOT EXISTS students (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    reg_number VARCHAR(20) NOT NULL UNIQUE,
+    matric_number VARCHAR(20) NOT NULL UNIQUE,
     full_name VARCHAR(100) NOT NULL,
     department VARCHAR(50) NOT NULL,
     level VARCHAR(10) NOT NULL,
