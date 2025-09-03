@@ -12,8 +12,8 @@
         <label>Email:</label><br>
         <input type="email" name="email" required><br><br>
 
-        <label>Reg Number:</label><br>
-        <input type="text" name="regnumber" required><br><br>
+        <label>Matric Number:</label><br>
+        <input type="text" name="matricnumber" required><br><br>
 
         <input type="submit" value="Register">
     </form>
