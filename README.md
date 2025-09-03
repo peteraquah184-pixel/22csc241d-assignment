@@ -12,3 +12,4 @@ Files included:
 6. delete.php - Deletes a student record when the delete button is clicked.
 
 Author: 22/CSC/241D (peteraquah184-pixel)
+Date: 31 September 2025
